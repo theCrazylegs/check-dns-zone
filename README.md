@@ -2,6 +2,8 @@
 
 This script checks if a DNS zone is correctly set up with respect to its known value.
 
+If you don't have the chance to have an API to manage your zone files and you have a really huge number of domains and zones to enter manually, this small script without any pretension can help you check for any omission or error.
+
 ## Usage
 
 To use this script, you must provide the following arguments:
@@ -24,7 +26,7 @@ Here are some examples of how to use this script:
 
 ## License
 
-This script is distributed under the MIT license. See `LICENSE.md` for more information.
+This script is distributed under the GNU General Public License. See `LICENSE.md` for more information.
 
 
 
@@ -37,6 +39,8 @@ This script is distributed under the MIT license. See `LICENSE.md` for more info
 # Vérification de la configuration DNS
 
 Ce script permet de vérifier si une zone DNS est correctement renseignée par rapport à sa valeur connue.
+
+Si vous n'avez pas la chance d'avoir accès à une API pour gérer automatiquement vos fichiers de zone DNS et que vous devez entrer manuellement de nombreuses zones pour de nombreux domaines, ce petit script sans prétention peut vous aider à vérifier s'il y a des erreurs ou des oublis.
 
 ## Utilisation
 
@@ -60,4 +64,4 @@ Voici quelques exemples d'utilisation de ce script :
 
 ## Licence
 
-Ce script est distribué sous la licence MIT. Voir `LICENSE.md` pour plus d'informations.
+Ce script est distribué sous la licence GNU générale. Voir `LICENSE.md` pour plus d'informations.
