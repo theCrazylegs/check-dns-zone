@@ -1,0 +1,12 @@
+_dmarc.yourdomaine.com|TXT|v=DMARC1; p=quarantine
+imgs.yourdomaine.com|A|192.168.0.1
+tra.yourdomaine.com|A|192.168.0.1
+www.yourdomaine.com|A|192.168.0.1
+s01._domainkey.yourdomaine.com|TXT|v=DKIM1;p=**********************************
+mta01.yourdomaine.com|A|192.168.0.1
+mta01.yourdomaine.com|TXT|v=spf1 a -all
+spf1.yourdomaine.com|TXT|v=spf1 ip4:192.168.0.1 ~all
+mx.yourdomaine.com|A|192.168.0.1
+yourdomaine.com|A|192.168.0.1
+yourdomaine.com|TXT|v=spf1 include:spf1.yourdomaine.com ~all|spf1
+yourdomaine.com|MX|mx.yourdomaine.com
